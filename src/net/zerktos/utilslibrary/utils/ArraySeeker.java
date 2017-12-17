@@ -50,11 +50,11 @@ public class ArraySeeker {
      * @return -1: array = null; -2: val not found in the array; return higher then -1: index of val
      */
 
-    public Integer indexOfValueInDoubleArray(Double[] arr, Double val){
+    public Integer indexOfValueInDoubleArray(double[] arr, double val){
 
         if(arr == null) return -1;
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i].equals(val)){
+            if(arr[i] == (val)){
                 return i;
             }
         }
@@ -69,11 +69,11 @@ public class ArraySeeker {
      * @return -1: array = null; -2: val not found in the array; return higher then -1: index of val
      */
 
-    public Integer indexOfValueInFloatArray(Float[] arr, Float val){
+    public Integer indexOfValueInFloatArray(float[] arr, float val){
 
         if(arr == null) return -1;
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i].equals(val)){
+            if(arr[i] == (val)){
                 return i;
             }
         }
