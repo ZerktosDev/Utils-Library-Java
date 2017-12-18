@@ -14,6 +14,8 @@ public class ArrayTransformer {
 
     public char[] transformStringToCharArray(String s){
         if(s == null || s.equals("")) return null;
+
+
         return s.toCharArray();
     }
 
